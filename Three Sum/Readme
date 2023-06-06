@@ -1,0 +1,2 @@
+Time Complexity : O(n2)
+Space Complexity : O(m) but it is taking O(m) to display the result so it will not be considered so SC is O(1).
