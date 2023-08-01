@@ -23,18 +23,20 @@ int majorityElement(vector<int>& nums) {
     int n= nums.size();
 
     for(int i=0;i<n;i++){
+       //if current element is equal to candidate increment the count else decrement the count
         if(nums[i]==candidate){
             count ++;
         }
         else{
             count--;
         }
-
+        //check if in any case count is 0 then reset candidate to current element
         if(count == 0){
             candidate = nums[i];
             count ++;
         }
     }
+   //check if candidate is your ans or not so traverse again
     count = 0;
     for(int i : nums){
         i == candidate;
