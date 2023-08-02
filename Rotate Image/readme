@@ -1,0 +1,2 @@
+Time Complexcity: O(n2) as we are traveersing through 2d matrix to take transpose and then to swap first column with last column and second column with second last column
+Space Complexcity : O(1) as we are not taking extra space.
