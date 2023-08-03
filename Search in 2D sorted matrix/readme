@@ -1,0 +1,2 @@
+TC: O(logn*m)  as we are performing binary search hence complexcity is O(logn*m).
+SC : O(1)
