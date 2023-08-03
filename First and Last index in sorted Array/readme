@@ -1,0 +1,3 @@
+As we are traversing vector via binary search two times 1st to find 1st index and 2nd to find last index.
+TC : O(log2n)
+SC : O(1)
