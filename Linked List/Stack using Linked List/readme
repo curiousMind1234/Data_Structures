@@ -1,0 +1,4 @@
+TC : O(1) Since we are inserting and deleting elements from the head of the list itself, constant time is spent on pop and push functions.
+The other functions are also simply returning a value, so they also take constant time.
+SC : O(N) where ‘N’ is the number of elements pushed in the stack.
+
