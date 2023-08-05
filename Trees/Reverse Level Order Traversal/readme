@@ -1,0 +1,2 @@
+TC : O(n) as we are touching one element at a time.
+SC : O(n) as we are using queue to store the node.
