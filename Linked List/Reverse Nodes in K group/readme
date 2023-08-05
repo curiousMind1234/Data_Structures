@@ -1,0 +1,4 @@
+Approach: first reverse the node of kth group via iterative method and then recursively reverse the remaining kth nodes via recursion.
+
+TC : O(n) traversing through the complete list hence O(n)
+SC : O(n) recursive call function call stack space.
