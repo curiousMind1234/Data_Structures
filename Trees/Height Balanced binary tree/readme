@@ -1,0 +1,8 @@
+Naive Approach:
+TC : O(N2)
+SC: O(height)
+
+Optimise Approach:
+
+TC: O(N)
+SC: O(height)
