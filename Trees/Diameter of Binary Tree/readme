@@ -1,0 +1,7 @@
+Naive Approach :
+
+TC : O(n2) because extra O(n) took for calculating height of tree.
+SC : O(height)
+
+Optimise Approach:
+TC: O(N)
