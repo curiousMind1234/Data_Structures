@@ -1,0 +1,2 @@
+TC : O(n) as we are visiting every node only once.
+SC : O(height) as doing recursive traversal it will traverse till the max height
