@@ -1,0 +1,7 @@
+Better Approach :
+TC :O(N*N)
+SC: O(1)
+
+Optimize Approach:
+TC :O(N)
+SC :O(1)
