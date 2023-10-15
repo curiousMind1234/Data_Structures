@@ -1,0 +1,7 @@
+Better Approach :
+TC : O(n*n)
+SC:O(1)
+
+Optimize Approach:
+TC: O(NlogN) as using merge sort
+SC: O(N) using merge sort hence need one extra array
