@@ -1,2 +1,2 @@
-TC: O(NlogN)
+TC: O(logN)
 SC: O(1)
