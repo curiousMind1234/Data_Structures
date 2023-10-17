@@ -1,0 +1,5 @@
+TC : O(N*log*max(a[])) where max(a[]) is the maximum element in the array and N = size of the array.
+Reason: We are applying Binary search for the range [1, max(a[])], and for every value of ‘mid’,
+we are traversing the entire array inside the function named calculateHours().
+
+SC: O(1)
