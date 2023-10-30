@@ -1,0 +1,7 @@
+1st Approach takes 
+TC: O(n + m)
+SC: O(n + m)
+
+2nd Binary Search Approach takes
+TC : O(log(min(n1,n2))
+SC : O(1)
