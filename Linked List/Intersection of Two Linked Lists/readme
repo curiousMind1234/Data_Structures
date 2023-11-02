@@ -1,0 +1,11 @@
+1st Approach:
+TC: O(n*m)
+SC: O(1)
+
+2nd Approach(using hashing):
+TC : O(n+m)
+SC : O(n)
+
+3rd Approach (using length):
+TC: O(2*max(length of list1,length of list2))
+SC: O(1)
