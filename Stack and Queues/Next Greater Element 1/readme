@@ -1,0 +1,7 @@
+First Approach : 
+TC : O(n*m)
+SC : O(n)
+
+Second Approach : 
+TC : O(n)
+SC : O(n)
