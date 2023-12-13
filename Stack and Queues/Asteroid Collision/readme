@@ -1,0 +1,12 @@
+We can do one thing. Let we are only inserting the asteroids which are positive(Moving Right) into the stack as they will never collide.
+Now whenever we come across a negative asteroid, we will check our stack with following conditions -:
+1. If our stack is not empty and the absolute value of the negative asteroid is greater than our top element of the stack, then we will keep popping out of the stack.
+2. If our stack becomes empty while popping out, it means that the negative asteroid destroyed all the positive asteroids and then we will push that negative asteroid into our stack for future processing.
+Now check here that if we pushed the negative element in the stack, then it may have a chance that negative elements occupy the top of the stack, therefore if the top of the stack if negative, we can still push them in the stack.
+3. If our stack is not empty and absolute value of negative asteroid becomes equal to the positive value present at the top of stack, then both the asteoroids will explode therefore, we will pop the positive asteroid from the stack.
+
+After we made all the processing, we can make an "ans" vector and store the values of stack while stack is not empty. Also note that the values will be inserted in reversed order due to the nature of stack, so we have to reverse tha stack after completing the process.
+
+Complexity
+Time complexity: O(n)
+Space complexity: O(n)
