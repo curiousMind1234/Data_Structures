@@ -1,3 +1,7 @@
-Time Complexity: O( N )
+Optimize Approach:
+Time Complexity: O( N ) + O (N)
+Space Complexity: O(N)
 
+Better Approacj:
+Time Complexity: O( N )
 Space Complexity: O(3N) where 3 is for the stack, left small array and a right small array
