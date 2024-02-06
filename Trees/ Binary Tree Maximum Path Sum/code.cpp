@@ -18,3 +18,21 @@ int maxPathSum(TreeNode* root) {
     solve(root,maxSum);
     return maxSum;        
 }
+
+/******************2nd Approach********************************/
+
+int maxSum(BinaryTreeNode<int> *root, int& maxi){
+    if(root == NULL) return 0;
+
+    int leftMaxPath = max(0, maxSum(root->left, maxi));
+    int rightMaxPath = max(0, maxSum(root->right, maxi));
+
+    maxi = max(maxi , root->data + leftMaxPath + rightMaxPath);
+    return (root->data + max (leftMaxPath , rightMaxPath));
+}
+int maxPathSum(BinaryTreeNode<int> *root)
+{
+    int maxi = INT_MIN;
+    maxSum(root,maxi);
+    return maxi;
+}
