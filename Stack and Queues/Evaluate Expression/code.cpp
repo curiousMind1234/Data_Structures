@@ -4,7 +4,7 @@ int Solution::evalRPN(vector<string> &A) {
         if(A[i]!="+" && A[i]!="-" && A[i]!="*" && A[i]!="/") {
             st.push(stoi(A[i]));
         }
-        else if(A[i]=="+" || A[i]!="-" || A[i]!="*" || A[i]!="/") {
+        else if(A[i]=="+" || A[i]=="-" || A[i]=="*" || A[i]=="/") {
             int a = st.top();
             st.pop();
             
