@@ -23,3 +23,9 @@ vector<Interval> Solution::insert(vector<Interval> &intervals, Interval newInter
        }
        return ans;
 }
+
+
+/*
+Time Complexity: O(NlogN), where N is the total size of the array
+Space Complexity: O(N), where N is the total size of the merged array
+*/
