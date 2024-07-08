@@ -10,6 +10,26 @@
    }
     return {-1,-1};
 }
-
 TC : O(n)
 SC : O(n)
+
+//When array is sorted in non-decresing order.
+vector<int> twoSum(vector<int>& num, int target) {
+      int left = 0, right= num.size()-1;
+      while(left < right){    
+          int sum = num[left] + num[right];    
+          if(sum == target){
+              return {left+1, right+1};
+          }
+          else if(sum > target){
+              right--;
+          }
+          else{
+              left++;
+          }
+      }
+      return {};
+  }
+
+TC : O(n)
+SC : O(1)
