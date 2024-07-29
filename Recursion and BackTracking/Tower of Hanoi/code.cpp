@@ -26,3 +26,20 @@ Move disk 1 from rod A to rod C
 
 Time complexity: O(2N), There are two possibilities for every disk. Therefore, 2 * 2 * 2 * . . . * 2(N times) is 2N
 Auxiliary Space: O(N), Function call stack space
+
+
+
+/////////////////////////////////////////////////////////////////////////////////
+void solve(int n, int fromRod, int toRod, int auxRod, vector<vector<int>>& ans){
+    if(n==0) return;
+
+    solve(n-1, fromRod,auxRod,toRod,ans);
+    ans.push_back({fromRod,toRod});
+    solve(n-1, auxRod, toRod,fromRod,ans);
+}
+vector<vector<int>> towerOfHanoi(int n)
+{
+    vector<vector<int>> ans;
+    solve(n,1,3,2,ans);
+    return ans;
+}
