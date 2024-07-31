@@ -1,3 +1,5 @@
+//https://www.naukri.com/code360/guided-paths/data-structures-algorithms/content/651074/offering/10442136?goalRedirection=true&leftPanelTabValue=PROBLEM&customSource=studio_nav
+
 #include <bits/stdc++.h> 
 bool findRedundantBrackets(string &s)
 {
