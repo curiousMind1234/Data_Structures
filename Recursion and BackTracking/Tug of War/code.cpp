@@ -1,3 +1,6 @@
+/*You are a coach of a group consisting of 'N' students. The ith student has a strength Arr[i]. For a Tug of War game, you want to divide students into two teams of equal size (If N is odd, then size of one team should be (N-1)/2 and size of other team should be (N+1)/2). You want a game that is fun, for this the absolute difference between the team’s strength should be as minimum as possible. A team's strength is the sum of the strengths of the students in the team.*/
+
+
 //1st Approach
 #include <bits/stdc++.h> 
 int partition(vector<int>& arr, int selectedStundent, int idx,
